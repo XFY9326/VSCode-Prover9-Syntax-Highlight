@@ -1,0 +1,126 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Prover9",
+	"scopeName": "source.p9",
+	"fileTypes": [
+		"prover9"
+	],
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#supports"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.prover9",
+					"match": "\\b(if|end_if|end_of_list)\\b|\\."
+				},
+				{
+					"name": "keyword.other.prover9",
+					"match": "<=|>=|!=|=|<-|->|<->|\\||\\&|-|\\+|\\*|\\/|<|>|#"
+				},
+				{
+					"name": "keyword.other.prover9",
+					"match": "\\b(exists|all|$F|$T|mod|mix|max|abs)\\b"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.percentage.prover9",
+					"begin": "%",
+					"end": "\\n"
+				}
+			]
+		},
+		"supports": {
+			"patterns": [
+				{
+					"name": "support.function.prover9",
+					"match": "\\b(set|assign|clear|formulas|op)\\b"
+				},
+				{
+					"name": "support.constant.prover9",
+					"match": "\\b(ignore_option_dependencies|Prover9|Mace4|assumptions|sos|goals)\\b"
+				},
+				{
+					"name": "support.constant.mace4.prover9",
+					"match": "\\b(start_size|end_size|increment|domain_size|iterate|max_models|max_seconds|max_seconds_per|max_megs|prolog_style_variables|print_models|print_models_tabular|integer_ring|order_domain|arithmetic|verbose|trace|lnh|selection_order|selection_measure|negprop|neg_assign|neg_assign_near|neg_elim|neg_elim_near|skolems_last)\\b"
+				},
+				{
+					"name": "support.constant.clauses-and-formulas.prover9",
+					"match": "\\b(prolog_style_variables)\\b"
+				},
+				{
+					"name": "support.constant.op.prover9",
+					"match": "\\b(infix|infix_left|infix_right|prefix|prefix_paren|postfix|postfix_paren|ordinary)\\b"
+				},
+				{
+					"name": "support.constant.symbols.prover9",
+					"match": "\\b(true|false|negation|disjunction|conjunction|implication|backward_implication|equivalence|universal_quantification|existential_quantification|equality|negated_equality|attribute)\\b"
+				},
+				{
+					"name": "support.constant.automatic-modes.prover9",
+					"match": "\\b(auto|auto_inference|auto_process|auto_setup|auto_limits|auto2|lrs_ticks|lrs_interval|min_sos_limit|raw)\\b"
+				},
+				{
+					"name": "support.constant.clauses-and-formulas.prover9",
+					"match": "\\b(prolog_style_variables)\\b"
+				},
+				{
+					"name": "support.constant.term-ordering.prover9",
+					"match": "\\b(order|inverse_order|eq_defs)\\b"
+				},
+				{
+					"name": "support.constant.more-search-prep.prover9",
+					"match": "\\b(expand_relational_defs|predicate_elim|fold_denial_max|sort_initial_sos|process_initial_sos)\\b"
+				},
+				{
+					"name": "support.constant.search-limits.prover9",
+					"match": "\\b(sos_limit|max_given|max_kept|max_megs|max_seconds|max_minutes|max_hours|max_days)\\b"
+				},
+				{
+					"name": "support.constant.selecting-the-given-clause.prover9",
+					"match": "\\b(age_part|weight_part|false_part|true_part|random_part|hints_part|default_parts|pick_given_ratio|lightest_first|breadth_first|random_given|random_seed|input_sos_first)\\b"
+				},
+				{
+					"name": "support.constant.inference-rules.prover9",
+					"match": "\\b(binary_resolution|neg_binary_resolution|ordered_res|check_res_instances|literal_selection|pos_hyper_resolution|hyper_resolution|neg_hyper_resolution|ur_resolution|pos_ur_resolution|neg_ur_resolution|initial_nuclei|ur_nucleus_limit|paramodulation|ordered_para|check_para_instances|para_from_vars|para_lit_limit|para_units_only|basic_paramodulation)\\b"
+				},
+				{
+					"name": "support.constant.processing-inferred-clauses.prover9",
+					"match": "\\b(lex_order_vars|demod_step_limit|demod_increase_limit|back_demod|lex_dep_demod|lex_dep_demod_lim|lex_dep_demod_sane|unit_deletion|cac_redundancy|max_literals|max_depth|max_vars|max_weight|safe_unit_conflict|factor|new_constants|back_subsume|back_subsume|backsub_check)\\b"
+				},
+				{
+					"name": "support.constant.output-files.prover9",
+					"match": "\\b(echo_input|quiet|print_initial_clauses|print_given|print_gen|print_kept|print_labeled|print_clause_properties|print_proofs|default_output|report|stats|clocks|bell)\\b"
+				},
+				{
+					"name": "support.constant.weighting.prover9",
+					"match": "\\b(constant_weight|sk_constant_weight|variable_weight|not_weight|or_weight|prop_atom_weight|nest_penalty|depth_penalty|var_penalty|default_weight)\\b"
+				},
+				{
+					"name": "support.constant.goals-and-denials.prover9",
+					"match": "\\b(max_proofs|reuse_denials|auto_denials|restrict_denials)\\b"
+				},
+				{
+					"name": "support.constant.hints.prover9",
+					"match": "\\b(breadth_first_hints|degrade_hints|limit_hint_matchers|back_demod_hints|collect_hint_labels)\\b"
+				},
+				{
+					"name": "support.constant.semantic-guidance.prover9",
+					"match": "\\b(multiple_interps|eval_limit)\\b"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+    "name": "prover9-syntax-highlight",
+    "keywords": [
+        "prover9"
+    ],
+    "displayName": "Prover9 Syntax Highlight",
+    "description": "Prover9 is a resolution/paramodulation automated theorem prover for first-order and equational logic.",
+    "icon": "images/icon.png",
+    "version": "0.0.1",
+    "publisher": "XFY9326",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/XFY9326/VSCode-Prover9-Syntax-Highlight.git"
+    },
+    "bugs": {
+        "url": "https://github.com/XFY9326/VSCode-Prover9-Syntax-Highlight/issues"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "prover9",
+                "aliases": [
+                    "Prover9",
+                    "prover9"
+                ],
+                "extensions": [
+                    ".p9"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "prover9",
+                "scopeName": "source.p9",
+                "path": "./syntaxes/prover9.tmLanguage.json"
+            }
+        ]
+    }
+}
