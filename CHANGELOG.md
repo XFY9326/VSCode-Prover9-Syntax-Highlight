@@ -7,4 +7,4 @@
 ## [v0.0.2 Released]
 
 - Add more keywords
-- Add morw descriptions
+- Add more descriptions
