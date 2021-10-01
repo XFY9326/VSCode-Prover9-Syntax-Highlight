@@ -8,3 +8,7 @@
 
 - Add more keywords
 - Add more descriptions
+
+## [v0.0.3 Released]
+
+- Fix negative number reg error

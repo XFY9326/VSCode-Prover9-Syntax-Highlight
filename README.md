@@ -7,7 +7,7 @@ Syntax highlight for [Prover9](https://www.cs.unm.edu/~mccune/prover9/) (*.p9)
 
 ## Attention
 This plugin is not official and will not be maintained for a long time.  
-If you just want to use simple syntax highlighting on p9 files, you can try this plugin.  
+If you just want to use simple syntax highlighting on p9 files, you can try this extension.  
 
 ## Github
 [VSCode-Prover9-Syntax-Highlight](https://github.com/XFY9326/VSCode-Prover9-Syntax-Highlight)
