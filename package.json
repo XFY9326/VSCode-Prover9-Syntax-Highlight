@@ -1,12 +1,15 @@
 {
     "name": "prover9-syntax-highlight",
     "keywords": [
-        "prover9"
+        "prover9",
+        "p9",
+        ".p9",
+        "prover"
     ],
     "displayName": "Prover9 Syntax Highlight",
     "description": "Prover9 is a resolution/paramodulation automated theorem prover for first-order and equational logic.",
     "icon": "images/icon.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "XFY9326",
     "engines": {
         "vscode": "^1.60.0"
