@@ -1,5 +1,7 @@
 # Prover9 Syntax Highlight
-
+[![vsmarketplacebadge](https://vsmarketplacebadge.apphb.com/version/xfy9326.prover9-syntax-highlight.svg)](https://marketplace.visualstudio.com/items?itemName=xfy9326.prover9-syntax-highlight)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/xfy9326/prover9-syntax-highlight)  
+  
 Syntax highlight for [Prover9](https://www.cs.unm.edu/~mccune/prover9/) (*.p9)  
 
 **By default, only files with the p9 extension are automatically supported.**  
