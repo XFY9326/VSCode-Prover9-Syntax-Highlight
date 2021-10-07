@@ -1,6 +1,6 @@
 # Prover9 Syntax Highlight
 [![vsmarketplacebadge](https://vsmarketplacebadge.apphb.com/version/xfy9326.prover9-syntax-highlight.svg)](https://marketplace.visualstudio.com/items?itemName=xfy9326.prover9-syntax-highlight)
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/xfy9326/prover9-syntax-highlight)  
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/XFY9326/VSCode-Prover9-Syntax-Highlight)  
   
 Syntax highlight for [Prover9](https://www.cs.unm.edu/~mccune/prover9/) (*.p9)  
 
